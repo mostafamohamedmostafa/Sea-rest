@@ -31,6 +31,13 @@ body {
     color: blue;
 }
 
+.why-us-section img {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .products-section .list-group-item {
     border: none;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
