@@ -4,36 +4,27 @@
     box-sizing: border-box;
     direction: rtl;
     text-align: center;
+    font-family: 'Rakkas', cursive;
 }
 
 body {
-    font-family: 'Markazi Text', serif;
+    font-family: 'Rakkas', cursive;
 }
 
-.intro-section .intro-text {
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    font-weight: 900;
-    font-size: 4rem;
-    color: crimson;
+.navbar-brand span {
+    font-size: 2rem;
+}
+
+.navbar .navbar-nav li {
+    margin-right: 5%;
+    font-size: larger;
 }
 
 .why-us-section .card {
     border: none;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    transition: all ease-in 1s;
-}
-
-.why-us-section i {
-    font-size: 2rem;
-    color: blue;
 }
 
 .why-us-section img {
-    width: 64px;
-    height: 64px;
     text-align: center;
     margin: 0 auto;
 }
@@ -54,8 +45,7 @@ body {
 .products-section .card {
     border: none;
     margin-bottom: 2%;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
+    3);
 }
 
 .products-section span {
@@ -71,8 +61,6 @@ body {
     background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
     margin: 3%;
     color: white;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
 }
 
 .awesome {
@@ -138,14 +126,14 @@ body {
         font-size: small;
     }
     .products-section .list-group {
-        font-size: 0.75rem;
+        font-size: 0.90rem;
         font-weight: 900;
     }
     .offers-section .card {
         width: 100%;
     }
     .contact-us iframe {
-        width: fit-content;
+        width: initial;
         height: fit-content;
     }
 }

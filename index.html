@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,9 +23,10 @@
     <!--Nav Bar-->
 
     <section class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand m-auto awesome " href="#">
-                <img src="img/logo.png" width="64" height="64" class="" alt="" loading="lazy"> مطعم طيبة للاسماك
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand m-auto  " href="#">
+
+                <img src="img/logo.png" width="64" height="64" class="" alt="" loading="lazy"> <span>طيبة للاسماك</span>
             </a>
 
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +36,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">المنيو</a>
+                    <li class="nav-item  active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">المنيو</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">سوق السمك</a>
+                            <a class="dropdown-item" href="#">الطواجن و الاطباق</a>
+                            <a class="dropdown-item" href="#">الارز و الشوربة</a>
+                            <a class="dropdown-item" href="#">الوجبات</a>
+                            <a class="dropdown-item" href="#">الاضافات</a>
+
+
+                        </div>
                     </li>
 
                     <li class="nav-item">
@@ -109,60 +120,31 @@
 
     <section class="why-us-section">
         <div class="container">
-            <h2 class="awesome "> مطعم اسماك طيبة</h2>
             <div class="row">
 
-
-
-                <div class="col-lg-3 col-6 mb-2">
+                <div class="col-lg-6 col-6 mb-2">
                     <div class="card h-100 ">
-                        <i class="fas fa-fish"></i>
-                        <img class="img-fluid" src="img/icons8-fish-96.png" alt="">
+
+                        <img class="img-fluid" src="img/intro-delivery.png" alt="">
                         <div class="card-body">
-                            <h5 class="card-title">افضل سمك</h5>
-                            <p class="card-text">يوجد تشكلية كبيرة من افخم الاسماك</p>
+                            <h2 class="card-title">اسرع توصيل سخن من المطعم للمائدة</h2>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-6 mb-2">
+                <div class="col-lg-6 col-6 mb-2">
                     <div class="card  h-100">
-                        <i class="fas fa-concierge-bell"></i>
-
-                        <img class="img-fluid" src="img/icons8-service-bell-64.png" alt="">
+                        <img class="img-fluid" src="img/intro-fishing.png" alt="">
 
                         <div class="card-body">
-                            <h5 class="card-title">افضل خدمة</h5>
-                            <p class="card-text">يوفر المطعم خدمة مميزة </p>
+                            <h2 class="card-title">السمك من البحر للمطعم مباشرة</h2>
 
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-6 mb-2">
-                    <div class="card  h-100  ">
-                        <i class="fas fa-truck"></i>
-                        <img class="img-fluid" src="img/icons8-delivery-scooter-64.png" alt="">
 
-                        <div class="card-body">
-                            <h5 class="card-title">اسرع توصيل</h5>
-                            <p class="card-text">اسرع خدمة التوصيل يصل الطعام ساخن و طازج</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-6 mb-2">
-                    <div class="card  h-100 ">
-                        <i class="fas fa-utensils"></i>
-                        <img class="img-fluid" src="img/icons8-savouring-delicious-food-face-128.png" alt="">
-
-                        <div class="card-body">
-                            <h5 class="card-title"> الاذ مذاق </h5>
-                            <p class="card-text">الاذ مذاق للسمك الطازج من البحر الي المائدة</p>
-
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
@@ -177,7 +159,7 @@
 
     <section class="products-section">
         <div class="container">
-            <h2 class="awesome ">منيو اسماك طيبة</h2>
+            <h2 class="awesome "> منيو طيبة للاسماك</h2>
             <div class="row">
                 <div class="row">
                     <div class="col-12 mb-3">
