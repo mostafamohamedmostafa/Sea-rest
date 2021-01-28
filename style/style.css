@@ -57,10 +57,11 @@ body {
 
 .offers-section .card {
     border: none;
-    background-color: ;
     margin: 3%;
-    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background: #CE5937;
+    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
 }
 
 .contact-us .card {
