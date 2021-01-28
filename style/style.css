@@ -51,7 +51,10 @@ body {
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
 }
 
-.offers-section {}
+.products-section span {
+    font-weight: bold;
+    color: blue;
+}
 
 .offers-section .card {
     border: none;
