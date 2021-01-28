@@ -51,18 +51,15 @@ body {
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
 }
 
-.offers-section {
-    width: 100%;
-}
+.offers-section {}
 
 .offers-section .card {
     border: none;
-    margin: 3%;
-    color: white;
     font-weight: bold;
     background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
     background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
     background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+    margin: 3%;
 }
 
 .contact-us .card {
@@ -83,6 +80,9 @@ body {
         left: 10%;
         font-weight: 800;
         font-size: small;
+    }
+    .offers-section .card {
+        width: 110%;
     }
     .contact-us iframe {
         width: fit-content;
