@@ -27,6 +27,7 @@ body {
 
 .why-us-section .card {
     border: none;
+    margin: 0;
 }
 
 .why-us-section img {
