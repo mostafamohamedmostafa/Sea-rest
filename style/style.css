@@ -44,8 +44,8 @@ body {
     border: none;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    transition: all ease-in-out 3s;
-    margin: 0 0;
+    margin: auto auto;
+    width: max-content;
 }
 
 .products-section .list-group-item:hover {
