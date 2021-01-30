@@ -60,11 +60,8 @@ body {
 .offers-section .card {
     border: none;
     font-weight: bold;
-    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
-    background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
-    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
     margin-bottom: 2%;
-    color: white;
+    color: black;
 }
 
 .awesome {
@@ -126,16 +123,17 @@ body {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .intro-section .intro-text {
-        position: absolute;
-        top: 40%;
-        left: 10%;
-        font-weight: 800;
-        font-size: small;
-    }
     .products-section .list-group {
-        font-size: 0.90rem;
+        font-size: 0.9rem;
         font-weight: 900;
+    }
+    .products-section .card h5 {
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+    .products-section .card p {
+        font-size: 1.3rem;
+        font-weight: 500;
     }
     .offers-section .card {
         width: 100%;
