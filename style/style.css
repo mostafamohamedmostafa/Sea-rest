@@ -1,22 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
-    text-align: center;
     font-family: 'Rakkas', cursive;
+    text-align: center;
 }
 
 body {
     font-family: 'Rakkas', cursive;
     direction: rtl;
+    text-align: center;
 }
 
 .navbar-brand span {
     font-size: 2rem;
 }
 
+.navbar {
+    padding: 0%!important;
+}
+
 .navbar .navbar-nav li {
-    margin-right: 5%;
+    margin-right: 1%;
     font-size: larger;
 }
 
@@ -40,6 +45,7 @@ body {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
     transition: all ease-in-out 3s;
+    margin: 0 0;
 }
 
 .products-section .list-group-item:hover {
@@ -124,6 +130,12 @@ body {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
+    .intro-section .carousel-item img {
+        width: max-content;
+    }
+    .products-section .list-group .list-group-item {
+        width: 75px;
+    }
     .products-section .list-group {
         font-size: 0.9rem;
         font-weight: 900;
