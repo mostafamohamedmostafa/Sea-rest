@@ -20,6 +20,11 @@ body {
     font-size: larger;
 }
 
+.navbar .dropdown .dropdown-menu a {
+    text-align: center;
+    border: none;
+}
+
 .why-us-section .card {
     border: none;
 }
@@ -45,7 +50,6 @@ body {
 .products-section .card {
     border: none;
     margin-bottom: 2%;
-    3);
 }
 
 .products-section span {
@@ -104,6 +108,10 @@ body {
     100% {
         color: pink;
     }
+}
+
+.best-sellers .carousel-item .card {
+    border: none;
 }
 
 .contact-us .card {
