@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    direction: rtl;
     text-align: center;
     font-family: 'Rakkas', cursive;
 }
 
 body {
     font-family: 'Rakkas', cursive;
+    direction: rtl;
 }
 
 .navbar-brand span {
@@ -140,7 +140,7 @@ body {
         width: 100%;
     }
     .contact-us iframe {
-        width: initial;
+        width: fit-content;
         height: fit-content;
     }
 }
