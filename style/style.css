@@ -44,8 +44,6 @@ body {
     border: none;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    margin: auto auto;
-    width: max-content;
 }
 
 .products-section .list-group-item:hover {
@@ -134,7 +132,7 @@ body {
         width: max-content;
     }
     .products-section .list-group .list-group-item {
-        width: 75px;
+        width: 75px !important;
     }
     .products-section .list-group {
         font-size: 0.9rem;
