@@ -111,6 +111,10 @@ body {
     border: none;
 }
 
+.safety-section .carousel-item .card {
+    border: none;
+}
+
 .contact-us .card {
     border: none;
 }
