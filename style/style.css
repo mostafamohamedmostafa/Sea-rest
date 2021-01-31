@@ -40,24 +40,12 @@ body {
     margin: 0 auto;
 }
 
-.products-section .list-group-item {
+.products .card {
     border: none;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
-    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.13);
+    margin-bottom: 1%;
 }
 
-.products-section .list-group-item:hover {
-    background-color: blue;
-    color: white;
-    transition: all ease-in 1s;
-}
-
-.products-section .card {
-    border: none;
-    margin-bottom: 2%;
-}
-
-.products-section span {
+.products span {
     font-weight: bold;
     color: blue;
 }
@@ -131,20 +119,9 @@ body {
     .intro-section .carousel-item img {
         width: max-content;
     }
-    .products-section .list-group .list-group-item {
-        width: 75px !important;
-    }
-    .products-section .list-group {
-        font-size: 0.9rem;
-        font-weight: 900;
-    }
-    .products-section .card h5 {
-        font-size: 1.3rem;
-        font-weight: 900;
-    }
-    .products-section .card p {
-        font-size: 1.3rem;
-        font-weight: 500;
+    .products .nav-link {
+        padding: 4px;
+        margin: auto;
     }
     .offers-section .card {
         width: 100%;
