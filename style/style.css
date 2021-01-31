@@ -57,6 +57,13 @@ body {
     color: black;
 }
 
+.offers-section .specail-offer {
+    background: #FFFFFF;
+    background: -moz-linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
+    background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
+    background: linear-gradient(45deg, #FFFFFF 0%, #E6E4DA 50%, #C5B7AD 100%);
+}
+
 .awesome {
     color: #313131;
     font-size: 45px;
