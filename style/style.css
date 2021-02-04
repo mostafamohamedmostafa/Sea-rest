@@ -50,6 +50,11 @@ body {
     color: blue;
 }
 
+.products-shadow {
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
 .offers-section .card {
     border: none;
     font-weight: bold;
