@@ -186,7 +186,7 @@ body {
     #dishes img:hover {
         transform: scale( 2);
     }
-    .card {
+    .products .card {
         height: 85%;
     }
 }
