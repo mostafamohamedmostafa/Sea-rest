@@ -186,4 +186,7 @@ body {
     #dishes img:hover {
         transform: scale( 2);
     }
+    .card {
+        height: 85%;
+    }
 }
