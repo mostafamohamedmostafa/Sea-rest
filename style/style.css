@@ -163,10 +163,6 @@
     
     .told-us {
         text-align: center;
-        background-image: url("img/told-us.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
     }
     
     .told-us h2 {
