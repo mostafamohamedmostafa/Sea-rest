@@ -67,7 +67,9 @@
     .products .card h5 {
         -webkit-text-stroke: 1px darkslategray;
         color: blue;
-        font-weight: 600;
+        font-weight: 500;
+        word-wrap: none;
+        word-break: keep-all;
     }
     
     .products .meals-desc {
@@ -76,7 +78,7 @@
     
     .products span {
         font-weight: bold;
-        color: blue;
+        color: red;
     }
     
     .products-shadow {
