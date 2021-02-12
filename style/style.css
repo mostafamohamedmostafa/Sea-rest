@@ -152,8 +152,17 @@
         border: none;
     }
     
+    .our-place .carousel-item {
+        margin-bottom: 2%;
+    }
+    
     .told-us {
         text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    .told-us .carousel-item {
+        margin-bottom: 2%;
     }
     
     .told-us .card {
