@@ -66,7 +66,6 @@ body h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
 }
 
 .products .card {
@@ -161,8 +160,16 @@ body h2 {
     border: none;
 }
 
+.safety-section {
+    background-image: url('../img/sea-waves.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .safety-section .card {
     border: none;
+    background-color: transparent;
 }
 
 .our-place {
