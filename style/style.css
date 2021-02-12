@@ -168,6 +168,10 @@ body h2 {
     background-position: center;
 }
 
+.safety-section h2 {
+    background-color: transparent;
+}
+
 .safety-section .card {
     border: none;
     background-color: transparent;
