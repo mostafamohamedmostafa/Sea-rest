@@ -70,7 +70,9 @@
         font-weight: 600;
     }
     
-    .products img {}
+    .products .meals-desc {
+        color: red;
+    }
     
     .products span {
         font-weight: bold;
