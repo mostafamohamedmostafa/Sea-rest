@@ -38,6 +38,8 @@
         border: none;
     }
     
+    .why-us-section {}
+    
     .why-us-section .card {
         border: none;
         margin: 0;
@@ -57,6 +59,13 @@
     .slide-in-left {
         -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
         animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    }
+    
+    .products {
+        background-image: url('../img/df.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     
     .products .card {
@@ -177,6 +186,13 @@
     
     .told-us .card {
         border: none;
+    }
+    
+    .contact-us {
+        background-image: url('../img/contact-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     
     .contact-us .card {
