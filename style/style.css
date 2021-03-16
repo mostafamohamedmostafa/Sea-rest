@@ -63,7 +63,7 @@
     
     #myTabContent {
         background-image: url('../img/menu-bg.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
