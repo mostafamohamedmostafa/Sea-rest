@@ -63,10 +63,9 @@
     
     #myTabContent {
         background-image: url('../img/menu-bg.png');
-        background-size: auto;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        width: 100%;
     }
     
     .products .card {
