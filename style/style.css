@@ -114,6 +114,11 @@
     }
     
     .offers-section .card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        background-image: url('/img/giphy\ \(1\).webp');
         border-radius: 20px;
         border: none;
         font-weight: bold;
