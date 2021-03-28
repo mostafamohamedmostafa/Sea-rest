@@ -54,6 +54,7 @@
         font-weight: 700;
         list-style: none;
         border: none;
+        font-size: larger;
     }
     
     .slide-in-left {
@@ -177,6 +178,13 @@
     }
     
     .best-sellers .carousel-item .card {
+        border-radius: 20px;
+        border: none;
+        -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .best-cief .carousel-item .card {
         border-radius: 20px;
         border: none;
         -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
