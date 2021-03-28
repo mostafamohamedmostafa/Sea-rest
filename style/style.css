@@ -185,6 +185,11 @@
     }
     
     .best-cief .carousel-item .card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        background-image: url('/img/giphy\ \(3\).gif');
         border-radius: 20px;
         border: none;
         -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
